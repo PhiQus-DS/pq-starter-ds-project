@@ -107,6 +107,10 @@ poetry run ruff format
 
 ## The `src` directory
 
+This template uses the `src` directory to store the project's source code. This is a common practice in python projects, and it helps to keep the project organized and to avoid circular imports. The `src` directory is added to the python path when the virtual environment is activated, so you can import modules from the `src` directory in your code.
+
+However, the name is very generic, and if you're workflow requires for the package to be published to PyPI or another package repository (like a private one that your company uses), you might want to change the name of the directory to something more specific to your project.
+
 ## Using jupyter notebooks
 
 One of the dev dependencies installed is `ipykernel`, which allows you to use the virtual environment as a jupyter kernel. We recommend using VS Code's jupyter notebook support, since it atuomatically detects the virtual environment and uses it as a kernel. If you use this option, no further configuration is needed.
