@@ -1,0 +1,3 @@
+# Deleteme Module
+
+::: src.deleteme
