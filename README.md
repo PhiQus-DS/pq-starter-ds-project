@@ -2,14 +2,14 @@
 
 # PhiQus Starter DS Project Repo
 
-Welcome to our Data Science Starter Project template! Here at PhiQus we'd like to share a part of our project workflow: how we structure a repo at a high level. We think that working on a team efficiently requires to have a couple of standards and tools to keep everyone on the same page, and let the team focus on the important task, doing data science!
+Welcome to our Data Science Starter Project template! Here at PhiQus we'd like to share a part of our project workflow: how we structure a repo at a high level. We think that working on a team efficiently requires having a couple of standards and tools to keep everyone on the same page, and let the team focus on the important task, doing data science!
 
 This repo is designed as a go-to starter kit to help you setup your environment for working on data science projects. It uses python tools for dependency management, code documentation, and even has a starter Pull Request validation
 
 ## Features
 
 - **Package and depdency management:** The cornerstone of this template is [poetry](https://python-poetry.org/). Poetry is a powerful tool for dependency and package management, it helps with keeping a clean python environment for each project, but it also takes care of package publishing in case that's part of your workflow.
-- **Project documentation:** We use [mkdocs.org](https://www.mkdocs.org) to generate project documentation, including autodocumenting modules, classes, functions or attributes that have [docstrings](https://en.wikipedia.org/wiki/Docstring). This docs can be compiled to html and published anywhere you need them to be hosted in.
+- **Project documentation:** We use [mkdocs.org](https://www.mkdocs.org) to generate project documentation, including auto-documenting modules, classes, functions or attributes that have [docstrings](https://en.wikipedia.org/wiki/Docstring). This docs can be compiled to html and published anywhere you need them to be hosted in.
 - **Notebooks support:** We are data scientists, and can't help to open up a notebook and do some quick tests or early prototyping. This repo structure along with poetry allow for the virtual environment to be used as a jupyter kernel.
 - **Code linting and formatting:** We use [ruff](https://docs.astral.sh/ruff/), a fast rust-based linter and formatter. Running basic code validations like formatting and linting might seem like a nuisance at first, but specially when collaborating in a team, having this done automatically saves on time for PR reviews, and removes personal preferences like "I format this way", letting people focus on the important things.
 - **Tests**: Basic testing framework to get you started with setting up tests for your code. Testing isn't a really strong quality of Data Science projects, but we believe at least a couple of tests should be implemented.
@@ -113,7 +113,7 @@ However, the name is very generic, and if you're workflow requires for the packa
 
 ## Using jupyter notebooks
 
-One of the dev dependencies installed is `ipykernel`, which allows you to use the virtual environment as a jupyter kernel. We recommend using VS Code's jupyter notebook support, since it atuomatically detects the virtual environment and uses it as a kernel. If you use this option, no further configuration is needed.
+One of the dev dependencies installed is `ipykernel`, which allows you to use the virtual environment as a jupyter kernel. We recommend using VS Code's jupyter notebook support, since it automatically detects the virtual environment and uses it as a kernel. If you use this option, no further configuration is needed.
 
 If you're setup requires for the use of the jupyter lab or notebook interface without exception, you can run the following command to install the kernel:
 
